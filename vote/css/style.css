@@ -1,0 +1,22 @@
+.b-vote{
+    
+}
+
+.b-vote__item{
+    float: left;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -999em;
+    cursor: pointer;
+    background: url(../images/stars.png) no-repeat scroll 0 0 transparent;
+}
+
+.b-vote__item + .b-vote__item{
+    
+}
+
+.b-vote__item_voted, 
+.b-vote__item_over {
+    background: url(../images/stars.png) no-repeat scroll 0 -17px transparent;
+}
